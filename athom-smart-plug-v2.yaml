@@ -85,6 +85,7 @@ sensor:
 
 
   - platform: total_daily_energy
+    id: daily_energy
     name: "${friendly_name} Total Daily Energy"
     restore: true
     min_save_interval: 180s
